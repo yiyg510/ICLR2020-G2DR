@@ -6,7 +6,7 @@ This directory contains a anonymised implementation of G2DR for the ICLR 2020 Su
 
 EDIT: Thanks to kind and helpful comment on accidentally leaving private username and needing more exposition and relation to Graph2Vec the previous repository has been deleted.
 
-This work is heavily inspired by Deep Graph Kernels (Yanardag and Vishwanathan, 2015) and Graph2Vec (Narayanan et al. 2017) motivated around hightlighting the generality of the approaches together. This is exemplified by G2DR as derived instance of Graph2Vec and is applied to labelled graphs as well as unlabelled graphs as well observing applicability to larger graphs.
+This work is heavily inspired by Deep Graph Kernels (Yanardag and Vishwanathan, 2015) and Graph2Vec (Narayanan et al. 2017) motivated around combining their approaches into a single 3 step methodology, which could also be applied to other discrete structures under the R-Convolutional Framework (Haussler 1999). This is exemplified by G2DR as derived instance of Graph2Vec and is applied to labelled graphs as well as unlabelled graphs to observe applicability to publicly available graphs, and the challenges that are encountered there such as diagonal dominance.
 
 # Prerequisites
 G2DR is implemented in Python 3.6+ upon the Tensorflow framework and requires the following packages.
