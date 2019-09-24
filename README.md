@@ -9,7 +9,7 @@ EDIT: Thanks to kind and helpful comment on accidentally leaving private usernam
 This work is heavily inspired by Deep Graph Kernels (Yanardag and Vishwanathan, 2015) and Graph2Vec (Narayanan et al. 2017) motivated around hightlighting the generality of the approaches together. This is exemplified by G2DR as derived instance of Graph2Vec and is applied to labelled graphs as well as unlabelled graphs as well observing applicability to larger graphs.
 
 # Prerequisites
-G2DR is implemented in Python 3.6+ upon the Tensorflow framework and requires the following packages. Narayanan et al's Python 2.7 implementation of Graph2Vec upon which this is based can be found in https://github.com/MLDroid/graph2vec_tf.
+G2DR is implemented in Python 3.6+ upon the Tensorflow framework and requires the following packages.
 
 - Numpy
 - NetworkX
@@ -56,3 +56,6 @@ In addition to the code files the `src` folder contains a few directories
 
 ## Data
 Due to size constraints of the GitHub platform and portability we have included the MUTAG dataset. Additional datasets can be downloaded from Kersting et al. https://ls11-www.cs.tu-dortmund.de/staff/morris/graphkerneldatasets
+
+## Attribution to Graph2Vec code
+Narayanan et al's Python 2.7 implementation of Graph2Vec upon which our work is based can be found in https://github.com/MLDroid/graph2vec_tf.
