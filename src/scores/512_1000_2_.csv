@@ -1,0 +1,2 @@
+,corpus_dir,embedding_size,wlk_h,epochs,mean accuracy,standard deviation
+0,mutag,128,2,1000,0.8526315789473685,0.07735230766683719
