@@ -2,9 +2,11 @@
 
 ![G2DR Overview](https://user-images.githubusercontent.com/3254542/65468317-ab5e8780-de5b-11e9-94d5-89d3fda4f93e.png)
 
-This directory contains a anonymised implementation of G2DR for the ICLR 2020 Submission of "Expanding the applicability of distributed representations for graph level learning". Code has been specially commented for friendly exposition, and most modules contain test routines which show self-contained examples, as well as two scripts to run the whole process based on single or batch experiment runs.
+This directory contains a anonymised implementation of G2DR which is an instance of the framework we describe for the ICLR 2020 Submission of "How can we generalise learning distributed representations of graphs?". Code has been specially commented for friendly exposition, and most modules contain test routines which show self-contained examples, as well as two scripts to run the whole process based on single or batch experiment runs.
 
-This work is heavily inspired by Deep Graph Kernels (Yanardag and Vishwanathan, 2015) and Graph2Vec (Narayanan et al. 2017) motivated around combining their approaches into a single 3 step methodology, which could also be applied to other discrete structures under the R-Convolutional Framework (Haussler 1999). This is exemplified by G2DR as derived instance of Graph2Vec and is applied to labelled graphs as well as unlabelled graphs to observe applicability to publicly available graphs, and the challenges that are encountered there such as diagonal dominance.
+This work is heavily inspired by Deep Graph Kernels (Yanardag and Vishwanathan, 2015) and Graph2Vec (Narayanan et al. 2017) motivated around combining their approaches into a single unified methodology, which could also be applied to other discrete structures beyond graphs under the R-Convolutional Framework (Haussler 1999). This is exemplified by G2DR as a derived instance of Graph2Vec extending beyond labelled graphs towards unlabelled graphs which are tested in our paper. This was motivated by the interest in applying the powerful Graph2Vec model beyond small labeled graphs towards larger ones as described in Yanardag et al.
+
+For more detail please consult our paper submission.
 
 # Prerequisites
 G2DR is implemented in Python 3.6+ upon the Tensorflow framework and requires the following packages.
@@ -23,7 +25,7 @@ pip install numpy pandas networkx scikit-learn pandas terminaltables
 ```
 and following instructions for installing tensorflow (CPU or GPU) we recommend the stable CPU package if you are just quickly testing the code.
 ```bash
-pip install tensoflow 
+pip install tensorflow 
 ```
 
 # Usage
