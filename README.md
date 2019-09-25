@@ -1,4 +1,4 @@
-# How can we generalise learning distributed representations of graphs, G2DR instance implementation for replication.
+# How can we generalise learning distributed representations of graphs?
 
 ![G2DR Overview](https://user-images.githubusercontent.com/3254542/65468317-ab5e8780-de5b-11e9-94d5-89d3fda4f93e.png)
 
