@@ -1,4 +1,4 @@
-# G2DR for ICLR 2020 Double Blind Review
+# How can we generalise learning distributed representations of graphs, G2DR instance implementation for replication.
 
 ![G2DR Overview](https://user-images.githubusercontent.com/3254542/65468317-ab5e8780-de5b-11e9-94d5-89d3fda4f93e.png)
 
